@@ -1,0 +1,51 @@
+.practice_container {
+    width: 100vw;
+    height: calc(100vh + 3rem);
+    display: grid;
+    place-items: center;
+    /* margin-top: 3rem !important; */
+}
+
+.box__center_practice {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    min-width: 100%;
+    margin-bottom: 0rem;
+}
+
+.practice_container_box {
+    height: 100%;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 10.5px);
+    -webkit-backdrop-filter: blur( 10.5px);
+    border-radius: 10px;
+    border: 0px solid rgba( 255, 255, 255, 0.18);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem !important;
+}
+
+.practice_box {
+    padding: 2rem;
+    width: 10rem;
+    border-radius: 15px;
+    box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+    min-height: 10rem;
+    text-align: center;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    margin: 1rem 1.5rem;
+}
+
+.practice_box h2 {
+    font-size: 1rem;
+    font-family: 'Changa', sans-serif;
+    padding: 1rem 1rem;
+}

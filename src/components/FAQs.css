@@ -1,0 +1,31 @@
+.faqs {
+    width: 100vw;
+    height: calc(100vh + 3rem);
+    /* display: flex; */
+    place-items: center;
+}
+
+.faqs__container {
+    height: 100%;
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 10.5px);
+    -webkit-backdrop-filter: blur( 10.5px);
+    border-radius: 10px;
+    border: 0px solid rgba( 255, 255, 255, 0.18);
+    overflow: hidden;
+    /* display: block; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem !important;
+}
+
+.faqs__wrapper {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 5rem;
+    align-items: flex-start;
+    padding: 0 3rem;
+}

@@ -1,0 +1,128 @@
+nav {
+    height: 5rem;
+    width: 100vw;
+    background: var(--color-secondary);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+/* Only shows on medium and small screens */
+
+.nav__toggle-btn {
+    display: none;
+}
+
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 7rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.nav__links a {
+    transition: var(--transition);
+    font-size: 1.3rem;
+}
+
+.nav__links a:hover {
+    color: var(--color-gray-100);
+}
+
+.active-nav {
+    position: relative;
+}
+
+.active-nav::after {
+    content: '';
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #8338ec;
+    position: absolute;
+    right: calc(50% - 0.6rem);
+    transform: rotate(45deg);
+    margin-top: 0.9rem;
+    border-radius: 5px;
+    box-shadow: -5px 12px 127px 31px rgba(0, 0, 0, 0.69);
+    transition: var(--transition);
+    z-index: 99;
+}
+
+
+/* MEDIA QUERIES (medium and amall screens) */
+
+@media screen and (max-width: 1024px) {
+    .nav__toggle-btn {
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav__toggle-btn svg {
+        color: snow;
+    }
+    .nav__links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        gap: 0;
+        perspective: 400px;
+        z-index: 100;
+    }
+    .active-nav,
+    .active-nav::after {
+        display: none;
+    }
+    .nav__links li {
+        height: 4rem;
+        width: 100%;
+        box-shadow: 1rem 7rem 4rem rgb(0 0 0 / 59%);
+        animation: navAnimation 600ms ease forwards;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transform-origin: top;
+    }
+    .nav__links li:nth-child(2) {
+        animation-delay: 200ms;
+    }
+    .nav__links li:nth-child(3) {
+        animation-delay: 600ms;
+    }
+    @keyframes navAnimation {
+        to {
+            transform: rotateX(0);
+            opacity: 1;
+        }
+    }
+    .nav__links li a {
+        display: inline-block;
+        background-color: var(--color-secondary);
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding: 1rem 5rem 1rem 3rem;
+    }
+    .show__nav {
+        display: flex;
+    }
+    .hide__nav {
+        display: none;
+    }
+}
