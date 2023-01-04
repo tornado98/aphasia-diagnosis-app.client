@@ -1,4 +1,3 @@
-import { required } from 'nodemon/lib/config';
 import { MdSettingsVoice } from 'react-icons/md';
 
 export const links = [{
@@ -116,34 +115,34 @@ export const testimonials = [{
         id: 1,
         name: "علی عادلی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
-        avatar: required("./images/avatar1.jpg")
+        avatar: require("./images/avatar1.jpg")
     },
     {
         id: 2,
         name: "سینا صدری",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "بیمار",
-        avatar: required("./images/avatar2.jpg")
+        avatar: require("./images/avatar2.jpg")
     },
     {
         id: 3,
         name: "شهره شهلایی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "بیمار",
-        avatar: required("./images/avatar3.jpg")
+        avatar: require("./images/avatar3.jpg")
     },
     {
         id: 4,
         name: "حسام قهرمانی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "کاردرمان",
-        avatar: required("./images/avatar4.jpg")
+        avatar: require("./images/avatar4.jpg")
     },
     {
         id: 5,
         name: "سارا سینایی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "کاردرمان",
-        avatar: required("./images/avatar5.jpg")
+        avatar: require("./images/avatar5.jpg")
     }
 ]
