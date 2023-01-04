@@ -113,36 +113,37 @@ export const faqs = [{
 
 export const testimonials = [{
         id: 1,
-        name: "علی عادلی",
+        name: "انیتا عادلی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
-        avatar: require("./images/avatar1.jpg")
+        job: "دکتر",
+        avatar: require("./images/avatar1.jpeg")
     },
     {
         id: 2,
         name: "سینا صدری",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "بیمار",
-        avatar: require("./images/avatar2.jpg")
+        avatar: require("./images/avatar2.jpeg")
     },
     {
         id: 3,
         name: "شهره شهلایی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "بیمار",
-        avatar: require("./images/avatar3.jpg")
+        avatar: require("./images/avatar3.jpeg")
     },
     {
         id: 4,
         name: "حسام قهرمانی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "کاردرمان",
-        avatar: require("./images/avatar4.jpg")
+        avatar: require("./images/avatar4.jpeg")
     },
     {
         id: 5,
         name: "سارا سینایی",
         quote: "این اپلیکیشن به من کمک کرد تا بتوانم بیماران خود را به درستی شناسایی کنم و روند درمان ان ها را پیگیری کنم",
         job: "کاردرمان",
-        avatar: require("./images/avatar5.jpg")
+        avatar: require("./images/avatar5.jpeg")
     }
 ]

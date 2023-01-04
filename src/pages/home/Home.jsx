@@ -10,6 +10,7 @@ import { Features } from '../../components';
 import { Values } from '../../components';
 import { FAQs } from '../../components';
 import { Testimonials } from '../../components';
+import { Footer } from '../../components';
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
       <Values/>
       <FAQs/>
       <Testimonials/> 
+      <Footer/>
     </>
     
 

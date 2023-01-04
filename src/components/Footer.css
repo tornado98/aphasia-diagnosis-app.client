@@ -1,0 +1,12 @@
+footer {
+    background: var(--color-secondary);;
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+    color: var(--color-gray-100);
+
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+}
