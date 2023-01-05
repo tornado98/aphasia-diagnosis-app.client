@@ -1,4 +1,4 @@
-.features-container {
+.features {
     width: 100vw;
     height: calc(100vh + 3rem);
     /* display: flex; */
@@ -39,4 +39,11 @@
 .features__feature:hover a {
     background: yellow;
     color: var(--color-gray-200);
+}
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 1024px) {
+    /*Features*/
+    .features__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
 }

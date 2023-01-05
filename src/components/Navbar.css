@@ -27,6 +27,7 @@ nav {
 
 .logo {
     width: 7rem;
+    display: block;
 }
 
 .nav__links {
@@ -68,6 +69,9 @@ nav {
 /* MEDIA QUERIES (medium and amall screens) */
 
 @media screen and (max-width: 1024px) {
+    /* nav {
+        height: fit-content;
+    } */
     .nav__toggle-btn {
         display: inline-block;
         background: transparent;

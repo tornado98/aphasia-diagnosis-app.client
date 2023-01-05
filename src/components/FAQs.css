@@ -29,3 +29,12 @@
     align-items: flex-start;
     padding: 0 3rem;
 }
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 1024px) {
+    /* Faqs */
+    .faqs__wrapper {
+        grid-template-columns: 1fr;
+
+    }
+
+}

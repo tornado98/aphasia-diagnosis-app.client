@@ -53,11 +53,13 @@
 
 .values__right {
     margin: 0.5rem 2rem 0 0rem;
+    grid-column: 1;
 }
 
 .values__left {
     margin: 3rem 0rem 0rem 3rem;
     border-radius: 0rem 3rem 0rem 3rem;
+    grid-column: 2;
 }
 
 .values__image {
@@ -67,4 +69,21 @@
 .values__left img {
     border-radius: 0rem 6rem 0rem 6rem;
     padding-top: 3rem;
+}
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 1024px) {
+    /* Values */
+    .values__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .values__wrapper {
+        gap: 4rem 3rem;
+    }
+    .values__image {
+        display: none;
+    }
+    
+
 }

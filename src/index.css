@@ -48,7 +48,7 @@ body {
 }
 
 .container {
-    width: var(--container-width-lg);
+    width: var(--container-width-lg) !important;
     max-width: 1920px;
     margin: 0 auto;
     margin-inline: auto;
@@ -166,4 +166,27 @@ section {
     margin-top: 1rem;
     display: block;
     font-weight: 300;
+}
+
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md) !important;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+}
+
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+
 }

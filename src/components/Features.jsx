@@ -10,7 +10,7 @@ import SectionHead from './SectionHead';
 
 const Features = () => {
   return (
-    <section className="features-container">
+    <section className="features">
       <div className="container features__container">
           <SectionHead icon={<FaCrown />} title="اپشن ها"/>
           <div className="features__wrapper">
