@@ -41,10 +41,10 @@
     color: var(--color-gray-200);
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
     /*Features*/
     .features {
-        margin-top: -3rem;
+        /* margin-top: -3rem; */
     }
     .features__wrapper {
         grid-template-columns: 1fr 1fr;

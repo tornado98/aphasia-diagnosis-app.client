@@ -79,7 +79,7 @@
     filter: blur(0.6px);
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
     /*MAIN HEADER*/
     .main__header {
         height: fit-content;

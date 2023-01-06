@@ -83,11 +83,11 @@
     height: 3rem;
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
     /* Testimonials */
     .testimonials {
         width: 75%;
-        margin-top: -13rem;
+        /* margin-top: -13rem; */
     }
 
 }
