@@ -25,8 +25,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
-    margin-top: 10rem;
-    padding: 0 .5rem;
+    margin-top: 6rem;
+    padding: 0 2.5rem;
 }
 
 .features__feature a {
@@ -43,7 +43,13 @@
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
     /*Features*/
+    .features {
+        height: calc(100vh + 3rem);
+    }
     .features__wrapper {
         grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
+        padding: 0 1.5rem;
     }
+    
 }

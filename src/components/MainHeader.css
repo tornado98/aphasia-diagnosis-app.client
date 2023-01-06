@@ -26,7 +26,7 @@
 .main__header-right,
 .main__header-left {
     padding: 0 2rem;
-    margin-top: -8rem;
+    /* margin-top: -8rem; */
 }
 
 .main__header-right {}
@@ -50,6 +50,10 @@
 .main__header-right p {
     margin: 1rem 0 3.5rem;
     font-size: 1.1rem;
+}
+.main__header-right a {
+    display: block;
+    align-items: center;
 }
 
 .main__header-left {
@@ -89,4 +93,33 @@
        width: 16rem;
        height: 16rem; 
     }
+    .main__header-right ,
+    .main__header-left  {
+        padding: 0 1rem;
+        padding-top: 0.5rem;
+
+    }
+    .main__header-right h2 {
+        margin-bottom: .5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+
+    }
+    .main__header-right h4 {
+        margin: .4rem 0 2.5rem;
+        font-size: 0.9rem;
+    }
+    .main__header-right p {
+        margin: .4rem 0 2.5rem;
+        font-size: .9rem;
+    }
+    .main__header-right .btn-g.lg {
+        padding: 1rem 4.5rem;
+        border-radius: 3rem;
+        font-size: 1.3rem;
+
+
+    }
+    
 }

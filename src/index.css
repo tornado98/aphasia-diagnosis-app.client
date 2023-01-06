@@ -179,6 +179,10 @@ section {
     h2 {
         font-size: 1.6rem;
     }
+    .section__head {
+        margin-top: 2rem;
+    }
+   
     
 }
 
