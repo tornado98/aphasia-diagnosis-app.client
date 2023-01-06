@@ -32,7 +32,7 @@
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
     .faqs {
-        margin-top: -39rem;
+        margin-top: -29rem;
     }
     /* Faqs */
     .faqs__wrapper {

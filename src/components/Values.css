@@ -74,7 +74,7 @@
 @media screen and (max-width: 1024px) {
     /* Values */
     .values {
-        margin-top: -33rem;
+        margin-top: -23rem;
     }
     .values__container {
         grid-template-columns: 1fr;
