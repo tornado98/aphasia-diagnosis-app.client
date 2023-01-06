@@ -68,6 +68,9 @@ footer {
 }
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
+    footer {
+        margin-top: 4rem;
+    }
     .footer__container {
         grid-template-columns: 1fr 1fr;
         gap: 4rem;

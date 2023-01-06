@@ -31,9 +31,16 @@
 }
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
+    .faqs {
+        margin-top: -39rem;
+    }
     /* Faqs */
     .faqs__wrapper {
         grid-template-columns: 1fr;
+
+    }
+    .faqs__container  {
+        max-height: 56rem;
 
     }
 

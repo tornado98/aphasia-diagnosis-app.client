@@ -73,10 +73,14 @@
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
     /* Values */
+    .values {
+        margin-top: -33rem;
+    }
     .values__container {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 4rem;
+        max-height: 40rem;
     }
     .values__wrapper {
         gap: 4rem 3rem;
