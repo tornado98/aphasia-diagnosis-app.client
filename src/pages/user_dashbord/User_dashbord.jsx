@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 
 
 import { FiSettings } from 'react-icons/fi';
+import { Navbar } from '../../components';
+import { Footer } from '../../components';
 
 
 
@@ -9,10 +11,18 @@ import { FiSettings } from 'react-icons/fi';
 import './User_dashbord.css';
 
 const User_dashbors = () => {
+
+  const date = new Date();
+  const today = new Intl.DateTimeFormat('fa-IR' , { dateStyle: 'full', timeStyle: 'long' }).format(date);
   return (
-    <div>
-      dashbord
-    </div>
+    <>
+      <Navbar/>
+      <section>
+        <p>{today}</p>
+      </section>
+      
+      <Footer/>
+    </>
   )
 }
 

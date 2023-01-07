@@ -1,8 +1,7 @@
 // Home
 export { default as Home }
 from './home/Home';
-// User_login
-export { default as User_login } from './user_login/User_login';
+ 
 // User_register
 export { default as User_register } from './user_register/User_register';
 // User_dashbord

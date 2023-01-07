@@ -21,6 +21,9 @@ import { ImLinkedin2 } from 'react-icons/im';
 
 import { FaRegEnvelope } from 'react-icons/fa';
 
+import { Navbar } from '../../components';
+import { Footer } from '../../components';
+
 import './User_register.css';
 
 
@@ -43,6 +46,7 @@ const User_register = () => {
   return (
     <>
       <title>ثبت نام و ورود</title>
+      <Navbar/> 
       <div className={`container container__form ${containerActive && "sign-up-mode"}`} id="container">
         <div className="form__continer">
           <div className="signin__signup">
@@ -134,6 +138,7 @@ const User_register = () => {
         </div>
 
       </div>
+      <Footer/>
 
     </>  
     

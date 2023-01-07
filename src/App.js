@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Home, User_login, User_register, Not_found, User_dashbord, User_practice, User_practice_category } from './pages';
+import { Home, User_register, User_dashbord, User_practice_category, User_practice, Not_found } from './pages';
 
 
 
@@ -12,7 +12,7 @@ const App = () => {
       <Routes>
         <Route index element={<Home/>}/>
         <Route path='user_register' element={<User_register/>}/>
-        <Route path='use_dashbord' element={<User_dashbord/>}/>
+        <Route path='user_dashbord' element={<User_dashbord/>}/>
         <Route path='user_practice' element={<User_practice/>}/>
         <Route path='user_practice_category' element={<User_practice_category/>}/>
         <Route path='user_register' element={<User_register/>}/>
