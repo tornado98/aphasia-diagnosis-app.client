@@ -188,6 +188,10 @@ section {
 
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-md) !important;
+
+    }
     h1 {
         font-size: 2.2rem;
         line-height: 1.3;

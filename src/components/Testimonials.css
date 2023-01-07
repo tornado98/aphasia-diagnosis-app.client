@@ -95,3 +95,11 @@
     }
 
 }
+/* MOBILE */
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px){
+    /* Testimonials */
+    .testimonials {
+        width: 100%;
+    }
+}

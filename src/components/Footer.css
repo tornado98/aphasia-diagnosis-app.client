@@ -68,11 +68,31 @@ footer {
 }
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
+    /* Footer */
     footer {
         margin-top: 4rem;
     }
     .footer__container {
         grid-template-columns: 1fr 1fr;
         gap: 4rem;
+    }
+}
+/* MOBILE */
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px){
+    /* Footer */
+    footer {
+        margin-top: 2rem;
+    }
+    .footer__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .footer__container article {
+        align-items: center;
+
+    }
+    .footer__container article p {
+        text-align: center;
     }
 }

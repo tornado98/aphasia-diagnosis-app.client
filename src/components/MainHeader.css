@@ -78,6 +78,7 @@
 .main__header-left:hover .main__header-circle {
     filter: blur(0.6px);
 }
+/* TABLET */
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
     /*MAIN HEADER*/
@@ -122,4 +123,34 @@
 
     }
     
+}
+/* MOBILE */
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px) {
+    /*MAIN HEADER*/
+    .main__header {
+        margin-top: -6rem;
+        padding: 12rem 0 0;
+        height: 100vh;
+
+    }
+    .main__header-right {
+        padding: 0 2rem;
+    }
+    .main__header-right .btn-g.lg {
+        padding: .5rem 5.5rem;
+        border-radius: 4rem;
+        font-size: 1.6rem;
+        
+    }
+    .main__header-left {
+        display: none;
+    }
+    .main__header-image, .main__header-circle {
+        display: none;
+    }
+    .main__header-container {
+        grid-template-columns: 1fr;
+    }
+
 }

@@ -94,3 +94,27 @@
     
 
 }
+/* MOBILE */
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px) {
+    /* Values */
+    .values__container {
+        min-height: 100vh;
+        max-height: 114vh;
+    }
+    .values__wrapper {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        gap: 2.5rem 2.5rem;
+    }
+    .values__right {
+        margin: 0.5rem 0rem 0 0rem;
+        padding: 0 2rem;
+
+
+    }
+    .values__left {
+        display: none;
+    }
+
+}

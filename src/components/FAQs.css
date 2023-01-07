@@ -33,20 +33,39 @@
 }
 /* MEDIA QUERIES (medium screens)*/
 @media screen and (max-width: 1024px) {
+    /* Faqs */
     .faqs {
         height: fit-content;
         padding: 1.5rem 0;
     }
-    /* Faqs */
     .faqs__wrapper {
         grid-template-columns: 1fr;
+        max-height: 131vh;
+        min-height: 75vh;
 
     }
     .faqs__container  {
         margin-top: 0 !important;
-        max-height: 113vh;
+        max-height: 131vh;
         min-height: 75vh;
 
+    }
+
+}
+/* MOBILE */
+/* MEDIA QUERIES (medium screens)*/
+@media screen and (max-width: 600px){
+    /* Faqs */
+    .faqs__container {
+        max-height: 185vh;
+        min-height: 75vh;
+
+    }
+    .faqs__wrapper {
+        gap: 1rem;
+        max-height: 185vh;
+        min-height: 75vh;
+        margin-top: 2rem;
     }
 
 }
