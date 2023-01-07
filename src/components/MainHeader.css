@@ -3,7 +3,7 @@
     height: calc(100vh + 3rem);
     display: grid;
     place-items: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .main__header-container {
@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
-    margin-top: 6rem !important;
+    margin-top: 2rem !important;
 }
 
 .main__header-right,
@@ -79,11 +79,11 @@
     filter: blur(0.6px);
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     /*MAIN HEADER*/
     .main__header {
         height: fit-content;
-        padding: 3.5rem 0;
+        padding: 1.5rem 0;
     }
     .main__header-container {
         gap: 0;

@@ -67,7 +67,7 @@ footer {
     font-size: 2rem;
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     footer {
         margin-top: 4rem;
     }

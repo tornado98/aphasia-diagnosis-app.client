@@ -41,15 +41,20 @@
     color: var(--color-gray-200);
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     /*Features*/
     .features {
-        margin-top: -3rem;
+        height: fit-content;
+        padding: 1.5rem 0;
+    }
+    .features__container {
+        margin-top: 0 !important;
+
     }
     .features__wrapper {
         grid-template-columns: 1fr 1fr;
-        margin-top: 2rem;
-        padding: 0 1.5rem;
+        margin-top: 0;
+        padding: 1.5rem 1.5rem;
     }
     .features__container {
         max-height: 50rem;

@@ -71,19 +71,22 @@
     padding-top: 3rem;
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     /* Values */
     .values {
-        margin-top: -6rem;
+        height: fit-content;
+        padding: 1.5rem 0;
     }
     .values__container {
         grid-template-columns: 1fr;
         justify-content: center;
         gap: 4rem;
         max-height: 40rem;
+        margin-top: 0rem !important;
     }
     .values__wrapper {
         gap: 4rem 3rem;
+        padding-bottom: 1.5rem;
     }
     .values__image {
         display: none;

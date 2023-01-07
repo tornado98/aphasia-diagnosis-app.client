@@ -83,11 +83,14 @@
     height: 3rem;
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     /* Testimonials */
     .testimonials {
-        width: 75%;
-        margin-top: 7rem;
+        height: fit-content;
+        padding: 1.5rem 0;
+    }
+    .testimonials__container {
+        margin-top: 0 !important;
     }
 
 }

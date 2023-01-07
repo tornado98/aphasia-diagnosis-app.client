@@ -19,6 +19,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 4rem !important;
+    max-height: 113vh;
+    min-height: 75vh;
+    padding-bottom: 1.5rem;
 }
 
 .faqs__wrapper {
@@ -28,11 +31,13 @@
     gap: 1.5rem 5rem;
     align-items: flex-start;
     padding: 0 3rem;
+    max-height: 100vh;
 }
 /* MEDIA QUERIES (medium screens)*/
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1024px) {
     .faqs {
-        margin-top: -12rem;
+        height: fit-content;
+        padding: 1.5rem 0;
     }
     /* Faqs */
     .faqs__wrapper {
@@ -40,8 +45,7 @@
 
     }
     .faqs__container  {
-        max-height: 56rem;
-        min-height: 55rem;
+        margin-top: 0 !important;
 
     }
 
