@@ -101,6 +101,7 @@
     .values__container {
         min-height: 100vh;
         max-height: 114vh;
+        margin-bottom: 1.5rem !important;
     }
     .values__wrapper {
         grid-template-columns: 1fr;
