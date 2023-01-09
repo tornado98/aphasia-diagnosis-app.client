@@ -1,0 +1,22 @@
+@use '../../scss/abstracts/' as *;
+
+.dashboard-wrapper {
+    @include flex (stretch);
+
+    &__main {
+        flex-grow: 1;
+        padding-left: $sideBarWidth;
+    }
+
+    &__right {
+        width: $sideBarWidth;
+        background-color: $mainBg;
+        height: 100vh;
+        padding: $spacing;
+        border-top-right-radius: $borderRadius;
+        border-bottom-right-radius: $borderRadius;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}

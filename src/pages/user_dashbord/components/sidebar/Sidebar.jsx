@@ -1,0 +1,56 @@
+import React, { useEffect, useState } from 'react';
+import './sidebar.scss';
+import { Link, useLocation } from 'react-router-dom';
+import Logo from '../../../../images/logo.png';
+import sidebarNav from '../../Data/Data';
+
+const Sidebar = () => {
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const location = useLocation();
+
+  useEffect(() => {
+    const curPath = window.location.pathname.split('/')[1]
+    const activeItem = sidebarNav.findIndex(item => item.section === curPath)
+
+    setActiveIndex(curPath.length === 0 ? 0 : activeItem)
+  }, [location])
+  
+
+  return (
+    <div className="sidebar">
+      <div className="sidebar__logo">
+        <img src={Logo} alt="logo" />
+        <div className="sidebar-close">
+          <i className="bx bx-x"></i>
+        </div>
+        
+      </div>
+      <div className="sidebar__menu">
+        {
+          sidebarNav.map((nav, index) => (
+            <Link to={nav.link} key={`nav-${index}`} className={`sidebar__menu__item ${activeIndex === index && 'active'}`}>
+              <div className="sidebar__menu__item__icon">
+                {nav.icon}
+              </div>
+              <div className="sidebar__menu__item__txt">
+                {nav.text}
+              </div>
+            </Link>
+          ))
+        }
+        <div className="sidebar__menu__item">
+          <div className="sidebar__menu__item__icon">
+            <i className="bx bx-log-out"></i>
+          </div>
+          <div className="sidebar__menu__item__txt">
+            خروج
+          </div>
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
+export default Sidebar

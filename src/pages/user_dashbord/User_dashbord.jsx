@@ -1,29 +1,23 @@
-import React, { useEffect } from 'react';
-
-
-import { FiSettings } from 'react-icons/fi';
-import { Navbar } from '../../components';
 import { Footer } from '../../components';
+import './assets/libs/boxicons-2.1.1/css/boxicons.min.css';
+import './scss/User_dashbord.scss';
+import MainLayout from './Layout/MainLayout';
 
 
 
-
-import './User_dashbord.css';
-
-const User_dashbors = () => {
-
+const User_dashbord = () => {
   const date = new Date();
   const today = new Intl.DateTimeFormat('fa-IR' , { dateStyle: 'full', timeStyle: 'long' }).format(date);
   return (
     <>
-      <Navbar/>
-      <section>
-        <p>{today}</p>
-      </section>
+
+      
+      <MainLayout/>
+      
       
       <Footer/>
     </>
   )
 }
 
-export default User_dashbors
+export default User_dashbord
