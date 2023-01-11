@@ -16,6 +16,14 @@
             padding: $mobileSpacing;
             position: relative;
             background-color: $bodyBg;
+            z-index: 100;
             }
         }
-    }
+
+}
+
+
+
+.sidebar-open .main__content {
+    height: 100vh;
+}
