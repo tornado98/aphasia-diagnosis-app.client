@@ -26,4 +26,9 @@
 
 .sidebar-open .main__content {
     height: 100vh;
+    overflow: hidden;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transform: scale(0.8) translateX(-50%);
+    transition: all 0.5s ease-in-out;
 }
