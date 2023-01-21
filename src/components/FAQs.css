@@ -46,7 +46,7 @@
     }
     .faqs__container  {
         margin-top: 0 !important;
-        max-height: 131vh;
+        max-height: 189vh;
         min-height: 75vh;
 
     }
@@ -57,8 +57,8 @@
 @media screen and (max-width: 600px){
     /* Faqs */
     .faqs__container {
-        max-height: 185vh;
-        min-height: 75vh;
+        max-height: 189vh;
+        min-height: 78;
 
     }
     .faqs__wrapper {

@@ -33,10 +33,10 @@ ChartJS.register(
 const Dashboard = () => {
   return (
     <DashboardWrapper>
-    <DashboardWrapperMain>
-      <div className="row">
-        <div className="col-8 col-md-12">
-            <div className="row">
+        <DashboardWrapperMain>
+          <div className="row">
+            <div className="col-8 col-md-12">
+              <div className="row">
                 {
                     data.summary.map((item, index) => (
                         <div key={`summary-${index}`} className="col-6 col-md-6 col-sm-12 mb">
@@ -44,20 +44,19 @@ const Dashboard = () => {
                         </div>
                     ))
                 }
+              </div>
             </div>
-
-        </div>
-        <div className="col-4 hide-md">
-          <SummaryBoxSecial item={data.revenueSummary}/>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-12">
-          <Box>
-            <RevenueByMontsChart/>
-          </Box>
-        </div>
-      </div>
+            <div className="col-4 hide-md">
+              <SummaryBoxSecial item={data.revenueSummary}/>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <Box>
+                <RevenueByMontsChart/>
+              </Box>
+            </div>
+          </div>
     </DashboardWrapperMain>
     <DashboardWrapperLeft>
       <div className="title mb">Overall</div>

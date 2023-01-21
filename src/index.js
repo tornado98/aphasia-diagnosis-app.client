@@ -4,10 +4,20 @@ import App from './App';
 
 import './index.css';
 
+import { store } from './app/store';
+import { Provider } from 'react-redux';
+
 const root = ReactDOM.createRoot(document.querySelector('#root'));
+      
+        root.render( 
 
-root.render( < App / > )
 
+            <Provider store={store}> 
+                < App / >
+            </Provider>          
+            
+        )
 
+    
 //HERE ->
 document.getElementsByTagName('html')[0].setAttribute("dir", "rtl");

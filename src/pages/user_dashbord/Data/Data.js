@@ -6,32 +6,32 @@ const sidebarNav = [
         text: 'خانه'
     },
     {
-        link: '/orders',
-        section: 'orders',
+        link: '/user_dashboard_request',
+        section: 'user_dashboard_request',
         icon: <i className='bx bx-receipt' ></i>,
         text: 'درخواست ها'
     },
     {
-        link: '/products',
-        section: 'products',
+        link: '/user_dashboard_practice',
+        section: 'user_dashboard_practice',
         icon: <i className='bx bx-cube'></i>,
         text: 'تمرین ها'
     },
     {
-        link: '/customers',
-        section: 'customers',
+        link: '/user_dashboard_list',
+        section: 'user_dashboard_list',
         icon: <i className='bx bx-user'></i>,
         text: 'کاربران'
     },
     {
-        link: '/stats',
-        section: 'stats',
+        link: '/user_dashboard_status',
+        section: 'user_dashboard_status',
         icon: <i className='bx bx-line-chart'></i>,
         text: 'وضعیت'
     },
     {
-        link: '/settings',
-        section: 'settings',
+        link: '/user_dashboard_seting',
+        section: 'user_dashboard_seting',
         icon: <i className='bx bx-cog'></i>,
         text: 'تنضیمات'
     }

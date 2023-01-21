@@ -12,11 +12,31 @@
     top: 0;
     z-index: 100;
 
+    &__colse__normal{
+        position: relative;
+        
+
+        i{
+            position: absolute;
+            top:-10rem;
+            font-size: 2rem;
+            cursor: pointer;
+            right: 21rem;
+            
+
+        }
+    }
+
     @include tablet {
+        &__colse__normal {
+            display: none;
+        }
         width: 100vw;
+        height: 103vh;
         background-color: $mainColor;
         color: $white;
         z-index: 1;
+        position: absolute;
     }
 
     &__logo{
@@ -121,4 +141,8 @@
         }
     }
 
+}
+
+.normal-sidebar-colse .sidebar {
+    transform:scale(1) translateX(26rem);
 }

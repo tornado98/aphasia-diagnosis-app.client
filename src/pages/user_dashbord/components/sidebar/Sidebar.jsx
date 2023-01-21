@@ -23,6 +23,12 @@ const Sidebar = () => {
       document.querySelector('.main__content').style = ''
     }, 500);
   }
+
+
+ 
+  
+
+
   
 
   return (
@@ -31,9 +37,11 @@ const Sidebar = () => {
         <img src={Logo} alt="logo" />
         <div className="sidebar-close" onClick={closeSidebar}>
           <i className="bx bx-x"></i>
-        </div>
-        
+        </div> 
       </div>
+      <div className='sidebar__colse__normal'>
+          <i className="bx bx-x"></i>
+        </div>
       <div className="sidebar__menu">
         {
           sidebarNav.map((nav, index) => (
