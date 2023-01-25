@@ -1,16 +1,16 @@
 import React from 'react';
 
 
-import { MainHeader } from '../../components';
+import { MainHeader } from '../../../components';
 
 
 import './Home.css';
-import { Navbar } from '../../components';
-import { Features } from '../../components';
-import { Values } from '../../components';
-import { FAQs } from '../../components';
-import { Testimonials } from '../../components';
-import { Footer } from '../../components';
+import { Navbar } from '../../../components';
+import { Features } from '../../../components';
+import { Values } from '../../../components';
+import { FAQs } from '../../../components';
+import { Testimonials } from '../../../components../../components';
+import { Footer } from '../../../components';
 
 
 

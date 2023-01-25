@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Home, User_register, User_dashbord, User_practice_category, User_practice, Not_found, User_dashboard_request, User_dashboard_practice, User_dashboard_list, User_dashboard_status, User_dashboard_seting } from './pages';
+import { Home, User_register, User_dashbord, User_practice_category, User_practice, Not_found, User_dashboard_request, User_dashboard_practice, User_dashboard_list, User_dashboard_status, User_dashboard_seting } from './features/pages';
 
 
 

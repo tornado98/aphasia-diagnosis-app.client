@@ -2,7 +2,7 @@ import React from 'react'
 
 import UserSatusLayout from '../Layout/UserSatusLayout';
 
-import { Footer } from '../../../components';
+import { Footer } from '../../../../components';
 
 const User_dashboard_status = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './sidebar.scss';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../../../../images/logo.png';
+import Logo from '../../../../../images/logo.png';
 import sidebarNav from '../../Data/Data';
 
 const Sidebar = () => {

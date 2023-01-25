@@ -2,11 +2,11 @@ import React from 'react';
 
 import { useState } from 'react';
 
-import Log from '../../images/log.svg';
+import Log from '../../../images/log.svg';
 
-import Register from '../../images/register.svg';
+import Register from '../../../images/register.svg';
 
-import Register2 from '../../images/register2.svg';
+import Register2 from '../../../images/register2.svg';
 
 
 import { BiUserCircle } from 'react-icons/bi';
@@ -21,8 +21,8 @@ import { ImLinkedin2 } from 'react-icons/im';
 
 import { FaRegEnvelope } from 'react-icons/fa';
 
-import { Navbar } from '../../components';
-import { Footer } from '../../components';
+import { Navbar } from '../../../components';
+import { Footer } from '../../../components';
 
 import './User_register.css';
 

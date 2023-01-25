@@ -2,7 +2,7 @@ import React from 'react'
 
 import PracticeLayout from '../Layout/PracticeLayout';
 
-import { Footer } from '../../../components';
+import { Footer } from '../../../../components';
 
 const User_dashboard_practice = () => {
   return (

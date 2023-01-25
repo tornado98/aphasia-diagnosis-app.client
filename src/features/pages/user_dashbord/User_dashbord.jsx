@@ -1,4 +1,4 @@
-import { Footer } from '../../components';
+import { Footer } from '../../../components';
 import './assets/libs/boxicons-2.1.1/css/boxicons.min.css';
 import './scss/User_dashbord.scss';
 import MainLayout from './Layout/MainLayout';
